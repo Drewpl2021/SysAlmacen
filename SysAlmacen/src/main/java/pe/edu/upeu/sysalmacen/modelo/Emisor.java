@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @Data
 @Entity
 @Table(name = "upeu_emisor")
-public class Emisor {
+public class    Emisor {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
